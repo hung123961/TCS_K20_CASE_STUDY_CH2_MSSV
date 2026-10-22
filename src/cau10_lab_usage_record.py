@@ -21,4 +21,6 @@ print(f"Chi phi ; {chi_phi:.2f} VND")
 print(f"Tren 60 phut : {tren_60_phut}")
 print(f"Ghi nhan luc : {thoi_diem_hien_tai}")
 
+#Phien ban 2 :Da kiem tra
+
 
