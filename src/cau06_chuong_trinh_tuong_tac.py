@@ -1,0 +1,17 @@
+#nhap du lieu dau vao tu ban phim
+ma_phien = input("Nhap ma phien:")
+ma_may = input ("Nhap ma may:")
+cong_suat_w = float(input("Nhap cong suat (w):"))
+so_phut = int(input("Nhap so phut su dung:"))
+don_gia_kwh = float(input("Nhap don gia dien/kwh:"))
+
+#tinh toan
+dien_nang_kwh = cong_suat_w * so_phut / 60 / 1000
+chi_phi = dien_nang_kwh * don_gia_kwh
+
+#Xuat KQ ra man hinh
+print(f"Ma phien: {ma_phien}")
+print(f"May: {ma_may}")
+print(f"Dien nang: {dien_nang_kwh}")
+print(f"Chi phi : {chi_phi}")
+
